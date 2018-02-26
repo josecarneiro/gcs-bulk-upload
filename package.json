@@ -1,0 +1,15 @@
+{
+  "name": "gcs-bulk-upload",
+  "version": "0.0.1",
+  "description": "Bulk upload files to a Google Cloud Storage bucket",
+  "main": "index.js",
+  "repository": "https://github.com/josecarneiro/gcs-bulk-upload",
+  "author": "José Carneiro",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^1.6.0",
+    "mime-types": "^2.1.18",
+    "minimatch": "^3.0.4",
+    "recursive-readdir": "^2.2.2"
+  }
+}
